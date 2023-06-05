@@ -12,9 +12,6 @@ maintainers = ["eric_G"]
 [upstream]
 license = "MIT"
 website = "https://www.cloudlog.co.uk"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/magicbug/Cloudlog"
 
 [integration]
