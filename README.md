@@ -22,8 +22,6 @@ This is an ideal general-purpose logging application, supporting HF to Microwave
 
 **Shipped version:** 2.4.3~ynh1
 
-**Demo:** https://demo.example.com
-
 ## Screenshots
 
 ![Screenshot of Cloudlog](./doc/screenshots/screenshot.png)
@@ -31,8 +29,6 @@ This is an ideal general-purpose logging application, supporting HF to Microwave
 ## Documentation and resources
 
 * Official app website: <https://www.cloudlog.co.uk>
-* Official user documentation: <https://yunohost.org/apps>
-* Official admin documentation: <https://yunohost.org/packaging_apps>
 * Upstream app code repository: <https://github.com/magicbug/Cloudlog>
 * YunoHost documentation for this app: <https://yunohost.org/app_cloudlog>
 * Report a bug: <https://github.com/YunoHost-Apps/cloudlog_ynh/issues>

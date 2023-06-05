@@ -22,8 +22,6 @@ Il s'agit d'une application de journalisation polyvalente idéale, prenant en ch
 
 **Version incluse :** 2.4.3~ynh1
 
-**Démo :** https://demo.example.com
-
 ## Captures d’écran
 
 ![Capture d’écran de Cloudlog](./doc/screenshots/screenshot.png)
@@ -31,8 +29,6 @@ Il s'agit d'une application de journalisation polyvalente idéale, prenant en ch
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://www.cloudlog.co.uk>
-* Documentation officielle utilisateur : <https://yunohost.org/apps>
-* Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 * Dépôt de code officiel de l’app : <https://github.com/magicbug/Cloudlog>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_cloudlog>
 * Signaler un bug : <https://github.com/YunoHost-Apps/cloudlog_ynh/issues>
