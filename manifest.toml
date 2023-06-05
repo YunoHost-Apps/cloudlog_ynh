@@ -1,7 +1,7 @@
 packaging_format = 2
 
 id = "cloudlog"
-name = "Cloudlog"
+name = "CloudLog"
 description.en = "Web based amateur radio logging application"
 description.fr = "Application Web d'enregistrement radioamateur"
 
