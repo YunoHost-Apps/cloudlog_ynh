@@ -1,0 +1,58 @@
+packaging_format = 2
+
+id = "cloudlog"
+name = "Cloudlog"
+description.en = "Web based amateur radio logging application"
+description.fr = "Application Web d'enregistrement radioamateur"
+
+version = "2.4.3~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "https://www.cloudlog.co.uk"
+demo = "https://demo.example.com"
+admindoc = "https://yunohost.org/packaging_apps"
+userdoc = "https://yunohost.org/apps"
+code = "https://github.com/magicbug/Cloudlog"
+
+[integration]
+yunohost = ">= 11.1.19"
+architectures = "all"
+multi_instance = true
+ldap = "?"
+sso = "?"
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        url = "https://github.com/magicbug/Cloudlog/archive/refs/tags/2.4.3.tar.gz"
+        sha256 = "82f23aba0ad3e1cadf62fd4d06ff6c82cae0c8adb470a24b0c7b3f0a6017894b"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "mariadb-server, php8.0-curl, php8.0-mbstring, php8.0-mysql, php8.0-xml"
+
+    [resources.database]
+    type = "mysql"

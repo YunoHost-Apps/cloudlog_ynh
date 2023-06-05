@@ -1,0 +1,32 @@
+# Update the Cloudlog installation every day at midnight
+0 0 * * * /bin/bash -c "<Full-Path-To-Bash-Script>/cloudlog.sh"
+
+# Upload QSOs to Club Log (ignore cron job if this integration is not required)
+3 */6 * * * curl --silent https://__DOMAIN__/index.php/clublog/upload &>/dev/null
+
+# Upload QSOs to LoTW if certs have been provided every hour.
+0 */1 * * * curl --silent https://__DOMAIN__/index.php/lotw/lotw_upload &>/dev/null
+
+# Upload QSOs to QRZ Logbook (ignore cron job if this integration is not required)
+6 */6 * * * curl --silent https://__DOMAIN__/index.php/qrz/upload &>/dev/null
+
+# Upload/download QSOs to/from Eqsl (ignore cron job if this integration is not required)
+9 */6 * * * curl --silent https://__DOMAIN__/index.php/eqsl/sync &>/dev/null
+
+# Update LOTW Users Database
+@weekly curl --silent https://__DOMAIN__/index.php/lotw/load_users &>/dev/null
+
+# Update Clublog SCP Database File
+@weekly curl --silent https://__DOMAIN__/index.php/update/update_clublog_scp &>/dev/null
+
+# Update DOK File for autocomplete
+@monthly curl --silent https://__DOMAIN__/index.php/update/update_dok &>/dev/null
+
+# Update SOTA File for autocomplete
+@monthly curl --silent https://__DOMAIN__/index.php/update/update_sota &>/dev/null
+
+# Update WWFF File for autocomplete
+@monthly curl --silent https://__DOMAIN__/index.php/update/update_wwff &>/dev/null
+
+# Update POTA File for autocomplete
+@monthly curl --silent https://__DOMAIN__/index.php/update/update_pota &>/dev/null
