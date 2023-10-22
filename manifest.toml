@@ -5,7 +5,7 @@ name = "CloudLog"
 description.en = "Web based amateur radio logging application"
 description.fr = "Application Web d'enregistrement radioamateur"
 
-version = "2.4.10~ynh1"
+version = "2.4.11~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -21,7 +21,7 @@ multi_instance = true
 ldap = false
 sso = false
 disk = "50M"
-ram.build = "50M"
+ram.build = "150M"
 ram.runtime = "50M"
 
 [install]
@@ -37,8 +37,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/magicbug/Cloudlog/archive/refs/tags/2.4.10.tar.gz"
-        sha256 = "33021d7eebe80f349b42df497964839c85f8bb135e47febbbb04bfc6a8cb9a3d"
+        url = "https://github.com/magicbug/Cloudlog/archive/refs/tags/2.4.11.tar.gz"
+        sha256 = "e038a77cd51a1f6b79bfca7b79b638e8fe0594382f1ea749d6eb4f95c5aebe60"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -49,7 +49,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php8.0-curl, php8.0-mbstring, php8.0-mysql, php8.0-xml"
+    packages = "mariadb-server, php8.2-curl, php8.2-mbstring, php8.2-mysql, php8.2-xml"
 
     [resources.database]
     type = "mysql"
