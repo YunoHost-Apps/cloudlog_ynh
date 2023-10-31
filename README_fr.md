@@ -30,6 +30,7 @@ Il s'agit d'une application de journalisation polyvalente idéale, prenant en ch
 
 * Site officiel de l’app : <https://www.cloudlog.co.uk>
 * Dépôt de code officiel de l’app : <https://github.com/magicbug/Cloudlog>
+* YunoHost Store: <https://apps.yunohost.org/app/cloudlog>
 * Signaler un bug : <https://github.com/YunoHost-Apps/cloudlog_ynh/issues>
 
 ## Informations pour les développeurs
