@@ -37,18 +37,6 @@ chown root: "/etc/cron.d/$app"
 chmod 644 "/etc/cron.d/$app"
 
 #=================================================
-# APP INITIAL CONFIGURATION
-#=================================================
-# ADD A CONFIGURATION
-#=================================================
-ynh_script_progression --message="Adding a configuration file..." --weight=1
-
-ynh_add_config --template="database.php" --destination="$install_dir/application/config/database.php"
-
-chmod 650 "$install_dir/application/config/database.php"
-chown $app:$app "$install_dir/application/config/database.php"
-
-#=================================================
 # END OF SCRIPT
 #=================================================
 ynh_script_progression --message="Installation of $app completed" --last
