@@ -55,7 +55,7 @@ chmod 644 "/etc/cron.d/$app"
 # SETUP APPLICATION WITH CURL
 #=================================================
 
-ynh_local_curl "/install" "username=$db_user" "password=$db_pwd" "database=$db_name"
+ynh_local_curl "/install/index.php" "username=$db_user" "password=$db_pwd" "database=$db_name"
 
 #=================================================
 # END OF SCRIPT
