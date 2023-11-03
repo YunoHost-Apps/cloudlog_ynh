@@ -30,6 +30,7 @@ This is an ideal general-purpose logging application, supporting HF to Microwave
 
 * Official app website: <https://www.cloudlog.co.uk>
 * Upstream app code repository: <https://github.com/magicbug/Cloudlog>
+* YunoHost Store: <https://apps.yunohost.org/app/cloudlog>
 * Report a bug: <https://github.com/YunoHost-Apps/cloudlog_ynh/issues>
 
 ## Developer info
