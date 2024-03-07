@@ -1,5 +1,5 @@
 # Update the Cloudlog installation every day at midnight
-0 0 * * * /bin/bash -c "<Full-Path-To-Bash-Script>/cloudlog.sh"
+#0 0 * * * /bin/bash -c "<Full-Path-To-Bash-Script>/cloudlog.sh"
 
 # Upload QSOs to Club Log (ignore cron job if this integration is not required)
 3 */6 * * * curl --silent https://__DOMAIN__/index.php/clublog/upload &>/dev/null
