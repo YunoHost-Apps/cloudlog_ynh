@@ -20,7 +20,7 @@ Cloudlog is an open-source PHP & MySQL based amateur radio logging application, 
 
 This is an ideal general-purpose logging application, supporting HF to Microwave, it can even interface with your radio via CAT, sync logs from WSJT-X & if you are a satellite operator integrates with SatPC32.
 
-**Shipped version:** 2.6.5~ynh1
+**Shipped version:** 2.6.6~ynh1
 
 ## Screenshots
 
@@ -28,10 +28,10 @@ This is an ideal general-purpose logging application, supporting HF to Microwave
 
 ## Documentation and resources
 
-* Official app website: <https://www.cloudlog.co.uk>
-* Upstream app code repository: <https://github.com/magicbug/Cloudlog>
-* YunoHost Store: <https://apps.yunohost.org/app/cloudlog>
-* Report a bug: <https://github.com/YunoHost-Apps/cloudlog_ynh/issues>
+- Official app website: <https://www.cloudlog.co.uk>
+- Upstream app code repository: <https://github.com/magicbug/Cloudlog>
+- YunoHost Store: <https://apps.yunohost.org/app/cloudlog>
+- Report a bug: <https://github.com/YunoHost-Apps/cloudlog_ynh/issues>
 
 ## Developer info
 
