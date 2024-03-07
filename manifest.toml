@@ -7,7 +7,7 @@ description.fr = "Application Web d'enregistrement radioamateur"
 
 version = "2.6.6~ynh1"
 
-maintainers = ["eric_G"]
+maintainers = [ ]
 
 [upstream]
 license = "MIT"
