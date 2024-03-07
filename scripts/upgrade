@@ -18,6 +18,8 @@ ynh_script_progression --message="Upgrading source files..." --weight=1
 
 ynh_setup_source --dest_dir="$install_dir"
 
+ynh_replace_string --match_string="define('ENVIRONMENT', 'development');" --replace_string="define('ENVIRONMENT', 'production');" --target_file=$install_dir/index.php
+
 chown -R $app:www-data "$install_dir"
 
 #=================================================
