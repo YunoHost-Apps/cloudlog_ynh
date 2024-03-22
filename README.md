@@ -19,8 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Cloudlog is an open-source PHP & MySQL based amateur radio logging application, allowing you to log contacts via a web browser on any device and platform.
 
 This is an ideal general-purpose logging application, supporting HF to Microwave, it can even interface with your radio via CAT, sync logs from WSJT-X & if you are a satellite operator integrates with SatPC32.
-
-**Shipped version:** 2.6.6~ynh1
+**Shipped version:** 2.6.7~ynh1
 
 ## Screenshots
 
@@ -39,7 +38,7 @@ Please send your pull request to the [testing branch](https://github.com/YunoHos
 
 To try the testing branch, please proceed like that.
 
-``` bash
+```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/cloudlog_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade cloudlog -u https://github.com/YunoHost-Apps/cloudlog_ynh/tree/testing --debug
