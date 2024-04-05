@@ -16,8 +16,9 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression --message="Setting up source files..." --weight=1
 
-# Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
+
+ynh_replace_string --match_string="define('ENVIRONMENT', 'development');" --replace_string="define('ENVIRONMENT', 'production');" --target_file=$install_dir/index.php
 
 chown -R $app:www-data "$install_dir"
 
@@ -35,7 +36,7 @@ ynh_use_logrotate
 ynh_add_config --template="cron" --destination="/etc/cron.d/$app"
 chown root: "/etc/cron.d/$app"
 chmod 644 "/etc/cron.d/$app"
-
+   
 #=================================================
 # END OF SCRIPT
 #=================================================
