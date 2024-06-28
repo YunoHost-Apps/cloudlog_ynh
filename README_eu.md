@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # CloudLog YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/cloudlog.svg)](https://dash.yunohost.org/appci/app/cloudlog) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/cloudlog.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/cloudlog.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/cloudlog.svg)](https://ci-apps.yunohost.org/ci/apps/cloudlog/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/cloudlog.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/cloudlog.maintain.svg)
 
 [![Instalatu CloudLog YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cloudlog)
 
@@ -20,7 +20,7 @@ Cloudlog is an open-source PHP & MySQL based amateur radio logging application, 
 
 This is an ideal general-purpose logging application, supporting HF to Microwave, it can even interface with your radio via CAT, sync logs from WSJT-X & if you are a satellite operator integrates with SatPC32.
 
-**Paketatutako bertsioa:** 2.6.14~ynh1
+**Paketatutako bertsioa:** 2.6.15~ynh1
 
 ## Pantaila-argazkiak
 
