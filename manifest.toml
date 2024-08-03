@@ -15,7 +15,8 @@ website = "https://www.cloudlog.co.uk"
 code = "https://github.com/magicbug/Cloudlog"
 
 [integration]
-yunohost = ">= 11.2.20"
+yunohost = ">= 11.2.23"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
