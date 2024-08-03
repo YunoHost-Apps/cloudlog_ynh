@@ -10,19 +10,19 @@ ynh_print_info "Declaring files to be backed up..."
 # BACKUP THE APP MAIN DIR
 #=================================================
 
-ynh_backup "$install_dir"
+ynh_backup --src_path="$install_dir"
 
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
 
-ynh_backup "/etc/nginx/conf.d/$domain.d/$app.conf"
+ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 
-ynh_backup "/etc/php/$php_version/fpm/pool.d/$app.conf"
+ynh_backup --src_path="/etc/php/$phpversion/fpm/pool.d/$app.conf"
 
-ynh_backup "/etc/logrotate.d/$app"
+ynh_backup --src_path="/etc/logrotate.d/$app"
 
-ynh_backup "/etc/cron.d/$app"
+ynh_backup --src_path="/etc/cron.d/$app"
 
 #=================================================
 # BACKUP THE MYSQL DATABASE
