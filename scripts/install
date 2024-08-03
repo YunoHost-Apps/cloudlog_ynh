@@ -32,6 +32,13 @@ chown root: "/etc/cron.d/$app"
 chmod 644 "/etc/cron.d/$app"
 
 #=================================================
+# SETUP APPLICATION WITH CURL
+#=================================================
+ynh_script_progression "Finalizing installation..."
+
+ynh_local_curl "/install/index.php?submit" "username=$db_user" "password=$db_pwd" "database=$db_name"
+
+#=================================================
 # END OF SCRIPT
 #=================================================
 ynh_script_progression "Installation of $app completed"

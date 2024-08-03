@@ -28,13 +28,6 @@ ynh_config_add_nginx
 ynh_config_add_logrotate
 
 #=================================================
-# SETUP APPLICATION WITH CURL
-#=================================================
-ynh_script_progression "Finalizing installation..."
-
-ynh_local_curl "/install/index.php?submit" "username=$db_user" "password=$db_pwd" "database=$db_name"
-
-#=================================================
 # END OF SCRIPT
 #=================================================
 
