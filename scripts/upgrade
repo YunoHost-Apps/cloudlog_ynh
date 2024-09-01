@@ -4,8 +4,6 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# "REBUILD" THE APP (DEPLOY NEW SOURCES, RERUN NPM BUILD...)
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Upgrading source files..."
@@ -14,7 +12,6 @@ ynh_setup_source --dest_dir="$install_dir"
 
 ynh_replace --match="define('ENVIRONMENT', 'development');" --replace="define('ENVIRONMENT', 'production');" --file=$install_dir/index.php
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================

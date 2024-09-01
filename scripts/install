@@ -4,8 +4,6 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Setting up source files..."
@@ -14,7 +12,6 @@ ynh_setup_source --dest_dir="$install_dir"
 
 ynh_replace --match="define('ENVIRONMENT', 'development');" --replace="define('ENVIRONMENT', 'production');" --file=$install_dir/index.php
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
@@ -27,8 +24,6 @@ ynh_config_add_nginx
 ynh_config_add_logrotate
 
 ynh_config_add --template="cron" --destination="/etc/cron.d/$app"
-#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown root: "/etc/cron.d/$app"
-#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod 644 "/etc/cron.d/$app"
 
 #=================================================
 # END OF SCRIPT
