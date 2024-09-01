@@ -5,7 +5,7 @@ name = "CloudLog"
 description.en = "Web based amateur radio logging application"
 description.fr = "Application Web d'enregistrement radioamateur"
 
-version = "2.6.15~ynh1"
+version = "2.6.15~ynh2"
 
 maintainers = [ ]
 
