@@ -5,7 +5,7 @@ name = "CloudLog"
 description.en = "Web based amateur radio logging application"
 description.fr = "Application Web d'enregistrement radioamateur"
 
-version = "2.6.15~ynh2"
+version = "2.6.16~ynh1"
 
 maintainers = [ ]
 
@@ -41,8 +41,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/magicbug/Cloudlog/archive/refs/tags/2.6.15.tar.gz"
-        sha256 = "bfe098e978f03d53d244565e71a8c959a718034525bdb7496ffa4f1a834fee37"
+        url = "https://github.com/magicbug/Cloudlog/archive/refs/tags/2.6.16.tar.gz"
+        sha256 = "f50d984fdb8da790169dab952628bbdb6d19e430fbc9516497cb685d9b5da68c"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
