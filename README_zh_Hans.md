@@ -20,7 +20,7 @@ Cloudlog is an open-source PHP & MySQL based amateur radio logging application, 
 
 This is an ideal general-purpose logging application, supporting HF to Microwave, it can even interface with your radio via CAT, sync logs from WSJT-X & if you are a satellite operator integrates with SatPC32.
 
-**分发版本：** 2.6.15~ynh2
+**分发版本：** 2.6.16~ynh1
 
 ## 截图
 
