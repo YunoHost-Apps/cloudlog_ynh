@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # CloudLog para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/cloudlog.svg)](https://ci-apps.yunohost.org/ci/apps/cloudlog/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/cloudlog.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/cloudlog.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/cloudlog)](https://ci-apps.yunohost.org/ci/apps/cloudlog/)
+![Estado funcional](https://apps.yunohost.org/badge/state/cloudlog)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/cloudlog)
 
 [![Instalar CloudLog con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cloudlog)
 

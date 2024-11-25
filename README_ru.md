@@ -5,7 +5,9 @@
 
 # CloudLog для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/cloudlog.svg)](https://ci-apps.yunohost.org/ci/apps/cloudlog/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/cloudlog.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/cloudlog.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/cloudlog)](https://ci-apps.yunohost.org/ci/apps/cloudlog/)
+![Состояние работы](https://apps.yunohost.org/badge/state/cloudlog)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/cloudlog)
 
 [![Установите CloudLog с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cloudlog)
 

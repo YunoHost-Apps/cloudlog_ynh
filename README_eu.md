@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # CloudLog YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/cloudlog.svg)](https://ci-apps.yunohost.org/ci/apps/cloudlog/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/cloudlog.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/cloudlog.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/cloudlog)](https://ci-apps.yunohost.org/ci/apps/cloudlog/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/cloudlog)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/cloudlog)
 
 [![Instalatu CloudLog YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cloudlog)
 
