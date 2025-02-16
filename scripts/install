@@ -13,6 +13,13 @@ ynh_setup_source --dest_dir="$install_dir"
 ynh_replace --match="define('ENVIRONMENT', 'development');" --replace="define('ENVIRONMENT', 'production');" --file=$install_dir/index.php
 
 #=================================================
+# APP INITIAL CONFIGURATION
+#=================================================
+ynh_script_progression "Adding $app's configuration files..."
+
+ynh_config_add --template=".env" --destination="$install_dir/.env"
+
+#=================================================
 # SYSTEM CONFIGURATION
 #=================================================
 ynh_script_progression "Adding system configurations related to $app..."
