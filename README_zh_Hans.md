@@ -5,7 +5,9 @@
 
 # YunoHost 上的 CloudLog
 
-[![集成程度](https://dash.yunohost.org/integration/cloudlog.svg)](https://ci-apps.yunohost.org/ci/apps/cloudlog/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/cloudlog.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/cloudlog.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/cloudlog)](https://ci-apps.yunohost.org/ci/apps/cloudlog/)
+![工作状态](https://apps.yunohost.org/badge/state/cloudlog)
+![维护状态](https://apps.yunohost.org/badge/maintained/cloudlog)
 
 [![使用 YunoHost 安装 CloudLog](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cloudlog)
 
@@ -20,7 +22,8 @@ Cloudlog is an open-source PHP & MySQL based amateur radio logging application, 
 
 This is an ideal general-purpose logging application, supporting HF to Microwave, it can even interface with your radio via CAT, sync logs from WSJT-X & if you are a satellite operator integrates with SatPC32.
 
-**分发版本：** 2.6.16~ynh1
+
+**分发版本：** 2.6.17~ynh1
 
 ## 截图
 

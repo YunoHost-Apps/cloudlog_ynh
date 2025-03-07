@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # CloudLog pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/cloudlog.svg)](https://ci-apps.yunohost.org/ci/apps/cloudlog/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/cloudlog.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/cloudlog.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/cloudlog)](https://ci-apps.yunohost.org/ci/apps/cloudlog/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/cloudlog)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/cloudlog)
 
 [![Installer CloudLog avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cloudlog)
 
@@ -20,7 +22,8 @@ Cloudlog est une application de journalisation radio amateur open-source basée 
 
 Il s'agit d'une application de journalisation polyvalente idéale, prenant en charge HF vers micro-ondes, elle peut même s'interfacer avec votre radio via CAT, synchroniser les journaux de WSJT-X et si vous êtes un opérateur satellite, s'intègre à SatPC32.
 
-**Version incluse :** 2.6.16~ynh1
+
+**Version incluse :** 2.6.17~ynh1
 
 ## Captures d’écran
 

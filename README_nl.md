@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # CloudLog voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/cloudlog.svg)](https://ci-apps.yunohost.org/ci/apps/cloudlog/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/cloudlog.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/cloudlog.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/cloudlog)](https://ci-apps.yunohost.org/ci/apps/cloudlog/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/cloudlog)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/cloudlog)
 
 [![CloudLog met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cloudlog)
 
@@ -20,7 +22,8 @@ Cloudlog is an open-source PHP & MySQL based amateur radio logging application, 
 
 This is an ideal general-purpose logging application, supporting HF to Microwave, it can even interface with your radio via CAT, sync logs from WSJT-X & if you are a satellite operator integrates with SatPC32.
 
-**Geleverde versie:** 2.6.16~ynh1
+
+**Geleverde versie:** 2.6.17~ynh1
 
 ## Schermafdrukken
 

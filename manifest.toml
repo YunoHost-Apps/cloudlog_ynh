@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "cloudlog"
@@ -5,9 +7,9 @@ name = "CloudLog"
 description.en = "Web based amateur radio logging application"
 description.fr = "Application Web d'enregistrement radioamateur"
 
-version = "2.6.16~ynh1"
+version = "2.6.17~ynh1"
 
-maintainers = [ ]
+maintainers = []
 
 [upstream]
 license = "MIT"
@@ -15,11 +17,13 @@ website = "https://www.cloudlog.co.uk"
 code = "https://github.com/magicbug/Cloudlog"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = false
 
 disk = "50M"
@@ -38,10 +42,10 @@ ram.runtime = "50M"
 
     [resources.sources]
 
-        [resources.sources.main]
-        url = "https://github.com/magicbug/Cloudlog/archive/refs/tags/2.6.16.tar.gz"
-        sha256 = "f50d984fdb8da790169dab952628bbdb6d19e430fbc9516497cb685d9b5da68c"
-        autoupdate.strategy = "latest_github_tag"
+    [resources.sources.main]
+    url = "https://github.com/magicbug/Cloudlog/archive/refs/tags/2.6.17.tar.gz"
+    sha256 = "974b1af27d3baa60c09ac2507daacd18ab2d739df2485b7353c70223d5f13beb"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
