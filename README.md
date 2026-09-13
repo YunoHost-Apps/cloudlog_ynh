@@ -8,7 +8,7 @@ It shall NOT be edited by hand.
   CloudLog, packaged for YunoHost
 </h1>
 
-Web based amateur radio logging application
+Amateur radio logging application
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.cloudlog.co.uk)
 [![Version: 2.8.19~ynh1](https://img.shields.io/badge/Version-2.8.19~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/cloudlog/)
