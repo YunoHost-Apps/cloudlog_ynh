@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "cloudlog"
 name = "CloudLog"
-description.en = "Web based amateur radio logging application"
-description.fr = "Application Web d'enregistrement radioamateur"
+description.en = "Amateur radio logging application"
+description.fr = "Application de journalisation pour radioamateurs"
 
 version = "2.8.19~ynh1"
 
@@ -17,7 +17,7 @@ website = "https://www.cloudlog.co.uk"
 code = "https://github.com/magicbug/Cloudlog"
 
 [integration]
-yunohost = ">= 12.1.39"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -55,7 +55,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php8.4-curl, php8.4-mbstring, php8.4-mysql, php8.4-xml"
+    packages = "mariadb-server, php8.5-curl, php8.5-mbstring, php8.5-mysql, php8.5-xml"
 
     [resources.database]
     type = "mysql"
